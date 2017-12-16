@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name = "bb" revision = "master" fetch = "https://bitbucket.org/" />
+  <remove-project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" remote="rr" />
+  <remove-project path="build" name="android_build" remote="rr" />
+  <remove-project path="vendor/cm" name="android_vendor_resurrection" remote="rr" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="uberroms/arm-linux-androideabi-6.x" remote="bb" />
+  <remote name="opengapps" fetch="https://github.com/opengapps/"  />
+  <remove-project path="system/update_engine" name="platform/system/update_engine" groups="pdk" remote="aosp" />
+  <project name="invisiblek/android_system_update_engine" path="system/update_engine" />
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
+  <project name="invisiblek/android_device_essential_mata" path="device/essential/mata" />
+  <project name="invisiblek/android_device_essential_mata_data-ipa-cfg-mgr" path="device/essential/mata/data-ipa-cfg-mgr" />
+  <project name="invisiblek/android_device_essential_mata_gps" path="device/essential/mata/gps" />
+  <project name="invisiblek/android_kernel_essential_msm8998_drivers_staging_qcacld-3.0" path="kernel/essential/msm8998/drivers/staging/qcacld-3.0" />
+  <project name="invisiblek/android_kernel_essential_msm8998_drivers_staging_fw-api" path="kernel/essential/msm8998/drivers/staging/fw-api" />
+  <project name="invisiblek/android_kernel_essential_msm8998_drivers_staging_qca-wifi-host-cmn" path="kernel/essential/msm8998/drivers/staging/qca-wifi-host-cmn" />
+  <project name="invisiblek/android_vendor_qcom_opensource_fst-manager" path="vendor/qcom/opensource/fst-manager" />
+  <project name="LineageOS/android_vendor_qcom_opensource_location" path="vendor/qcom/opensource/location" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
+</manifest>
