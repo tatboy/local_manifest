@@ -13,7 +13,6 @@
   <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
-  <project name="invisiblek/android_device_essential_mata" path="device/essential/mata" />
   <project name="invisiblek/android_device_essential_mata_data-ipa-cfg-mgr" path="device/essential/mata/data-ipa-cfg-mgr" />
   <project name="invisiblek/android_device_essential_mata_gps" path="device/essential/mata/gps" />
   <project name="invisiblek/android_kernel_essential_msm8998_drivers_staging_qcacld-3.0" path="kernel/essential/msm8998/drivers/staging/qcacld-3.0" />
